@@ -24,43 +24,45 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- Main container -->
-    <div class="card">
-      <!-- Blog image -->
-      <div class="card-image-wrapper">
-        <img
-          src="./assets/images/illustration-article.svg"
-          alt="Blog Thumbnail"
-        />
+    <main>
+      <!-- Main container -->
+      <div class="card">
+        <!-- Blog image -->
+        <div class="card-image-wrapper">
+          <img
+            src="./assets/images/illustration-article.svg"
+            alt="Blog Thumbnail"
+          />
+        </div>
+
+        <!-- Blog content -->
+        <article class="card-content">
+          <!-- Meta data -->
+          <header>
+            <!-- tag -->
+            <span class="tag">Learning</span>
+            <!-- Blog published date (para1) -->
+            <p class="publish-date">Published 21 Dec 2023</p>
+          </header>
+
+          <h1 class="card-title">HTML & CSS foundations</h1>
+          <p class="card-description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+
+          <footer>
+            <section class="author">
+              <img
+                src="./assets/images/image-avatar.webp"
+                alt="Image Author"
+                class="author-image"
+              />
+              <span class="author-name">Greg Hooper</span>
+            </section>
+          </footer>
+        </article>
       </div>
-
-      <!-- Blog content -->
-      <article class="card-content">
-        <!-- Meta data -->
-        <header>
-          <!-- tag -->
-          <span class="tag">Learning</span>
-          <!-- Blog published date (para1) -->
-          <p class="publish-date">Published 21 Dec 2023</p>
-        </header>
-
-        <h2 class="card-title">HTML & CSS foundations</h2>
-        <p class="card-description">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-
-        <footer>
-          <section class="author">
-            <img
-              src="./assets/images/image-avatar.webp"
-              alt="Image Author"
-              class="author-image"
-            />
-            <span class="author-name">Greg Hooper</span>
-          </section>
-        </footer>
-      </article>
-    </div>
+    </main>
   </body>
 </html>
